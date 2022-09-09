@@ -27,9 +27,23 @@ body {
 .buttons {
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
+    
 }
 
 .row {
     display: flex;
     flex-direction: row;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 16px;
+}
+
+#equal {
+    width: 200px;
+    border-radius: 25%;
 }
