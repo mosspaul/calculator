@@ -21,7 +21,10 @@ body {
     height: 150px;
     background-color: aqua;
     border: 2px solid white;
+    padding: 40px;
     border-radius: 1%;
+    font-size: 40px;
+    text-align: right;
 }
 
 .buttons {
