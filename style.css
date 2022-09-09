@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    width: 900px;
+    height: 1200px;
+    flex-direction: column;
+    background-color: rgb(42, 33, 33);
+    padding: 12px;
+    border-radius: 20%;
+}
+
+.viewport {
+    width: 700px;
+    height: 200px;
+    background-color: aqua;
+    border: 2px solid white;
+    border-radius: 20%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
