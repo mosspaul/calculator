@@ -4,6 +4,14 @@ const operator = document.querySelectorAll(".operator");
 const equal = document.querySelector("#equal");
 const clear = document.querySelector("#clear");
 const back = document.querySelector("#back");
+const allButtons = document.querySelectorAll(".num, .operator");
+
+allButtons.forEach(button => button.addEventListener("mouseover", e => {
+    e.target.style.backgroundColor = "rgb(138, 239, 124)";
+}));
+allButtons.forEach(button => button.addEventListener("mouseout", e => {
+    e.target.style.backgroundColor = "rgb(42, 33, 33)";
+}));
 
 number.forEach(number => number.addEventListener("click", e => {
     updateViewport(e.target.textContent)
